@@ -3,6 +3,9 @@
 #+OPTIONS: toc:nil
 #+TITLE: Revealing the Mysteries of the Maya Script: Review 
 #+BIBLIOGRAPHY: mybib
+=======
+#+LATEX_HEADER: \usepackage{multicol}
+#+OPTIONS:toc:nil
 
 * Introduction
 Ancient writing systems from the  Egyptians to the Mayan civilizations
@@ -19,7 +22,6 @@ ahead\cite{hu_multimedia_2015}. This paper examines  the ACM Tech news
 article     \cite{bourquenoud_revealing_2015}    and     IEEE    paper
 \cite{hu_multimedia_2015} which looks at this process in depth.
 
-
 * The Mayan script and problems that researchers face
 Researchers working  on the translation  of ancient Mayan  script face
 several problems: (i) little work has been digitized, (ii) photographs
@@ -30,6 +32,17 @@ glyphs  were rendered.   Despite  these difficulties,  the IEEE  paper
 points  out  that  researchers  working on  the  writing  system  have
 translated     approximately    80%     of     the    writing     that
 survives~\cite{kettunen_introduction_2008}.
+=======
+** The Mayan script and problems that researchers face
+Researchers working on  the translation of ancient  Mayan writing face
+several problems: (i)  there is a limited amount of  digitized data to
+work   with,   (ii)  photographs   and   other   recorded  media   are
+deteriorating, (iii) many of the glyphs that were once in the original
+pieces have  become obscured,  and (iv)  glyphs artistic  style varies
+depending on  the region and  time the glyphs were  rendered. Although
+the first problem---available digitized data---may seem the easiest to
+remedy, researchers face problems related to storing large RAW images,
+sharing the data, and cataloging them for easy search and retrieval.
 
 Although the  first problem---available digitized data---may  seem the
 easiest to remedy, researchers face  problems related to storing large
@@ -77,6 +90,7 @@ the IEEE paper,  we can easily imagine  incorporating these techniques
 in Ancient  Egyptian, Mesopotamian, and other  ancient writing systems
 sitting in  drawers in  museums around  the world,  invigorating these
 dead writing systems once more. 
+
 
 \bibliographystyle{plain}
 \bibliography{mybib}
