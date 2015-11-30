@@ -1,4 +1,4 @@
-#+LaTeX_CLASS_OPTIONS: [a4paper,twoside,twocolumn] 
+#+Latex_Class_OPTIONS: [a4paper,twoside,twocolumn] 
 #+LATEX_HEADER: \usepackage{multicol}
 #+OPTIONS: toc:nil
 #+TITLE: Revealing the Mysteries of the Maya Script: Review 
