@@ -1,55 +1,82 @@
+#+LaTeX_CLASS_OPTIONS: [a4paper,twoside,twocolumn] 
 #+LATEX_HEADER: \usepackage{multicol}
-#+OPTIONS:toc:nil
-*  Revealing the Mysteries of the Maya Script
+#+OPTIONS: toc:nil
+#+TITLE: Revealing the Mysteries of the Maya Script: Review 
+#+BIBLIOGRAPHY: mybib
 
-** Introduction
+* Introduction
 Ancient writing systems from the  Egyptians to the Mayan civilizations
 used  eloborate and  enormous character  sets to  record phonological,
-morphological, and  sentential information.Because of the  enormity of
+morphological, and sentential information.  Because of the enormity of
 the character corpus, researchers working  on the translation of these
 corpora have not been able to completely translate the surviving Mayan
-literature,     despit      over     two     hundred      years     of
+literature,     despite     over      two     hundred     years     of
 effort\cite{macri_new_2009}. Recent  advances in machine  learning and
 other  statiscally   based  classification  algorithms   have  allowed
-researchers to build  databases that allow researchers  the ability to
-use   machine    translation   and   search   to    move   translation
-ahead\cite{hu_multimedia_2015}. This  paper examines the  news article
-\cite{bourquenoud_revealing_2015} and  paper \cite{hu_multimedia_2015}
-which looks at this process in depth.
+researchers to build databases that allow researchers us to search and
+use      machine       translation      to       move      translation
+ahead\cite{hu_multimedia_2015}. This paper examines  the ACM Tech news
+article     \cite{bourquenoud_revealing_2015}    and     IEEE    paper
+\cite{hu_multimedia_2015} which looks at this process in depth.
 
 
-** The Mayan script and problems that researchers face
-Researchers working on  the translation of ancient  Mayan writing face
-several problems: (i)  there is a limited amount of  digitized data to
-work   with,   (ii)  photographs   and   other   recorded  media   are
-deteriorating, (iii) many of the glyphs that were once in the original
-pieces have  become obscured,  and (iv)  glyphs artistic  style varies
-depending on  the region and  time the glyphs were  rendered. Although
-the first problem---available digitized data---may seem the easiest to
-remedy, researchers face problems related to storing large RAW images,
-sharing the data, and cataloging them for easy search and retrieval.
+* The Mayan script and problems that researchers face
+Researchers working  on the translation  of ancient Mayan  script face
+several problems: (i) little work has been digitized, (ii) photographs
+and other recorded  media are deteriorating, (iii) many  of the glyphs
+that were once  in the original pieces have become  obscured, and (iv)
+glyphs  artistic style  varies depending  on the  region and  time the
+glyphs  were rendered.   Despite  these difficulties,  the IEEE  paper
+points  out  that  researchers  working on  the  writing  system  have
+translated     approximately    80%     of     the    writing     that
+survives~\cite{kettunen_introduction_2008}.
 
-The problems related to deterioration, loss of data, and variations in
-artistic style are difficult problems that may benefit from recent
-advances in computer vision. Before looking at 
+Although the  first problem---available digitized data---may  seem the
+easiest to remedy, researchers face  problems related to storing large
+RAW images, sharing the data, and  cataloging them for easy search and
+retrieval. The  problems related to  deterioration, loss of  data, and
+variations in artistic  style are difficult problems  that may benefit
+from recent advances in computer  vision. Thus, the IEEE paper focuses
+on  the  algorithms  that  have helped  to  overcome  these  difficult
+problems.
 
-*** Similarities to English orthography
+* High quality representations of the Mayan script digitized
 
-*** Difficulty in deciphering the characters
-The fact  that there are still  people who speak a  descdended form of
-Mayan language helps  researchers decipher the meaning  of Mayan text;
-however, one of the greatest difficulties we face in translating these
-texts is  figuring out when  a glyph  represents a single  phoneme, an
-entire word, or an entire sentence.
+You need to  use different tools for different problems,  and the IEEE
+paper highlights  the different  approaches the  team used.  One thing
+researchers  would like  to do,  especially for  problems relating  to
+deterioration, is  automatically retrieve the most  likely sequence of
+glyphs given  the context of  where they  appear, i.e., given  that we
+have seen a  sequence of glyphs, and given that  one may be unreadable
+which one has the highest probability  of occuring here. The team used
+a dynamic programming algorithm, the  Viterbi algorithm, which is well
+suited for this  task. At its core, the algorithm  calculates the most
+likely sequence of events/characters to appear given a training set of
+data. Because  more monumental writings  were present in  the training
+set, the algorithm made better predictions on similar monumental data;
+it performed poorer on the codex data.
 
-** High quality representations of the Mayan script digitized
-
-*** Digitizing the work and the catalogue 
-
-*** Machine Learning
-
-** Conclusion
-
+Many  of the  glyphs in  the Mayan  script look  similar.  How  can we
+distinguish  stylistic differences  from  separate glyphs  altogether?
+The  team  differentiates  this problem  from  contextual  prediction.
+There are  times when researchers  want a  model that best  predicts a
+glyph given  no other  context, especially  when dealing  with damaged
+glyphs. In their experimental  results, the researchers concluded that
+a model, which  used a pivot based method for  classifying glyphs.  At
+its core, this method aligns images so that they can be compared using
+clusters of features,  e.g., both glyphs have a  particular leg symbol
+in the same spot. The best model using this method correctly predicted
+90% of the experimental data set.
+    
+* Conclusion
+Machine learning and dynamic programming algorithms have been knocking
+down problems  in many scientific  fields. This article shows  us that
+the humanities can benefit from incorporating recent advances to solve
+similarly difficult  problems. Extrapolating  the results  achieved in
+the IEEE paper,  we can easily imagine  incorporating these techniques
+in Ancient  Egyptian, Mesopotamian, and other  ancient writing systems
+sitting in  drawers in  museums around  the world,  invigorating these
+dead writing systems once more. 
 
 \bibliographystyle{plain}
 \bibliography{mybib}
