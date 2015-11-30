@@ -1,0 +1,39 @@
+*  Revealing the Mysteries of the Maya Script
+
+** Introduction
+Ancient writing systems from the  Egyptians to the Mayan civilizations
+used  eloborate and  enormous character  sets to  record phonological,
+morphological, and  sentential information.Because of the  enormity of
+the character corpus, researchers working  on the translation of these
+corpora have not been able to completely translate the surviving Mayan
+literature,     despit      over     two     hundred      years     of
+effort\cite{macri_new_2009}. Recent  advances in machine  learning and
+other  statiscally   based  classification  algorithms   have  allowed
+researchers to build  databases that allow researchers  the ability to
+use   machine    translation   and   search   to    move   translation
+ahead\cite{hu_multimedia_2015}. This  paper examines the  news article
+\cite{bourquenoud_revealing_2015} and  paper \cite{hu_multimedia_2015}
+which looks at this process in depth.
+
+
+** The Mayan script and problems that researchers face
+
+*** Similarities to English orthography
+
+*** Difficulty in deciphering the characters
+The fact  that there are still  people who speak a  descdended form of
+Mayan language helps  researchers decipher the meaning  of Mayan text;
+however, one of the greatest difficulties we face in translating these
+texts is  figuring out when  a glyph  represents a single  phoneme, an
+entire word, or an entire sentence.
+
+** High quality representations of the Mayan script digitized
+
+*** Digitizing the work and the catalogue 
+
+*** Machine Learning
+
+** Conclusion
+
+\bibliographystyle{plain}
+\bibliography{mybib}

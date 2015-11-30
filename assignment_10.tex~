@@ -1,0 +1,78 @@
+% Created 2015-11-29 Sun 17:11
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{wasysym}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\tolerance=1000
+\author{Ryan Sharif}
+\date{\today}
+\title{assignment\_10}
+\hypersetup{
+  pdfkeywords={},
+  pdfsubject={},
+  pdfcreator={Emacs 24.5.1 (Org mode 8.2.10)}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Revealing the Mysteries of the Maya Script}
+\label{sec-1}
+
+\subsection{Introduction}
+\label{sec-1-1}
+Ancient writing systems from the  Egyptians to the Mayan civilizations
+used  eloborate and  enormous character  sets to  record phonological,
+morphological, and  sentential information.Because of the  enormity of
+the character corpus, researchers working  on the translation of these
+corpora have not been able to completely translate the surviving Mayan
+literature,     despit      over     two     hundred      years     of
+effort\cite{macri_new_2009}. Recent  advances in machine  learning and
+other  statiscally   based  classification  algorithms   have  allowed
+researchers to build  databases that allow researchers  the ability to
+use   machine    translation   and   search   to    move   translation
+ahead\cite{hu_multimedia_2015}.
+
+
+\subsection{The Mayan script and problems that researchers face}
+\label{sec-1-2}
+
+\subsubsection{Similarities to English orthography}
+\label{sec-1-2-1}
+
+\subsubsection{Difficulty in deciphering the characters}
+\label{sec-1-2-2}
+The fact  that there are still  people who speak a  descdended form of
+Mayan language helps  researchers decipher the meaning  of Mayan text;
+however, one of the greatest difficulties we face in translating these
+texts is  figuring out when  a glyph  represents a single  phoneme, an
+entire word, or an entire sentence.
+
+\subsection{High quality representations of the Mayan script digitized}
+\label{sec-1-3}
+
+\subsubsection{Digitizing the work and the catalogue}
+\label{sec-1-3-1}
+
+\subsubsection{Machine Learning}
+\label{sec-1-3-2}
+
+\subsection{Conclusion}
+\label{sec-1-4}
+
+\bibliographystyle{plain}
+\bibliography{mybib}
+% Emacs 24.5.1 (Org mode 8.2.10)
+\end{document}
