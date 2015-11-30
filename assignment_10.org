@@ -1,3 +1,5 @@
+#+LATEX_HEADER: \usepackage{multicol}
+#+OPTIONS:toc:nil
 *  Revealing the Mysteries of the Maya Script
 
 ** Introduction
@@ -17,6 +19,19 @@ which looks at this process in depth.
 
 
 ** The Mayan script and problems that researchers face
+Researchers working on  the translation of ancient  Mayan writing face
+several problems: (i)  there is a limited amount of  digitized data to
+work   with,   (ii)  photographs   and   other   recorded  media   are
+deteriorating, (iii) many of the glyphs that were once in the original
+pieces have  become obscured,  and (iv)  glyphs artistic  style varies
+depending on  the region and  time the glyphs were  rendered. Although
+the first problem---available digitized data---may seem the easiest to
+remedy, researchers face problems related to storing large RAW images,
+sharing the data, and cataloging them for easy search and retrieval.
+
+The problems related to deterioration, loss of data, and variations in
+artistic style are difficult problems that may benefit from recent
+advances in computer vision. Before looking at 
 
 *** Similarities to English orthography
 
@@ -35,5 +50,7 @@ entire word, or an entire sentence.
 
 ** Conclusion
 
+
 \bibliographystyle{plain}
 \bibliography{mybib}
+
