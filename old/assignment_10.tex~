@@ -1,0 +1,61 @@
+% Created 2015-11-07 Sat 20:55
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{fixltx2e}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{biblatex}
+\bibliography{CS35L_Mayan}
+\author{Ryan Sharif}
+\date{\today}
+\title{}
+\hypersetup{
+ pdfauthor={Ryan Sharif},
+ pdftitle={},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 24.5.1 (Org mode 8.3.2)}, 
+ pdflang={English}}
+\begin{document}
+
+\tableofcontents
+
+
+\section{Revealing the Mysteries of the Maya Script}
+\label{sec:orgheadline7}
+
+\subsection{Introduction}
+\label{sec:orgheadline1}
+
+\subsection{The Mayan script}
+\label{sec:orgheadline3}
+
+\subsubsection{Mayan Language}
+\label{sec:orgheadline2}
+
+About 30 languages spoken in Central America are descended from a
+common ancestral language spoken about 4,000 years
+ago \cite{england_mayan_2003}
+
+\subsection{Problems that researchers face}
+\label{sec:orgheadline4}
+
+\subsection{High quality representations of the Mayan script digitized}
+\label{sec:orgheadline5}
+
+\subsection{Conclusion}
+\label{sec:orgheadline6}
+\end{document}

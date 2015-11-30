@@ -1,0 +1,22 @@
+#+LaTeX_HEADER: \usepackage{biblatex}
+#+LaTeX_HEADER: \bibliography{CS35L_Mayan}
+#+BIBLIOGRAPHY: CS35L_Mayan plain
+
+*  Revealing the Mysteries of the Maya Script
+
+** Introduction
+
+** The Mayan script
+
+*** Mayan Language
+
+    About 30 languages spoken in Central America are descended from a
+    common ancestral language spoken about 4,000 years
+    ago \cite{england_mayan_2003}
+
+** Problems that researchers face
+
+** High quality representations of the Mayan script digitized
+
+** Conclusion
+
